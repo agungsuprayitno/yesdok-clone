@@ -1,7 +1,6 @@
 import { defineStore } from 'pinia'
 import articles from '@/public/article.json'
 import { Article } from '~~/model/Article'
-import { parse } from '@vue/compiler-dom'
 
 export const useArticle = defineStore({
   id: 'article',
